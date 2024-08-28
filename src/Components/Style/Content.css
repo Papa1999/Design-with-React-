@@ -1,0 +1,9 @@
+.subheading {
+  font-size: 57px;
+  /* height: 100%; */
+  text-transform: capitalize;
+}
+
+img[alt="content"] {
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+.Feature-Container {
+  /* display: flex; */
+  align-items: center;
+  max-width: 1040px;
+  margin: 100px auto;
+}
+
+.subheader {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #aad9d9;
+}
+
+.Feature-Logos {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2d2879;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.Logos_Container img {
+  width: 145px;
+  height: auto;
+}

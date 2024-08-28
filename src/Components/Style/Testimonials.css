@@ -1,0 +1,39 @@
+#T_subheader,
+#T_subheading {
+  text-align: center;
+}
+
+#T_subheading {
+  max-width: 50%;
+  margin: auto;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 50px 0;
+  gap: 50px;
+}
+
+.card {
+  height: 350px;
+  background-color: #ffffff20;
+  border-radius: 10px;
+  padding: 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card img {
+    display: block;
+  border-radius: 100%;
+  width: 138px;
+  height: 138px;
+  margin:0  auto;
+}
+
+.card .subheader {
+    text-align: center;
+}
